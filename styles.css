@@ -1,0 +1,113 @@
+/********* NORMALIZACIÓN - INICIO **********/
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*********** NORMALIZACIÓN - FIN ************/
+
+header {
+    background-color: yellow;
+}
+
+nav {
+    background-color: aqua;
+}
+
+aside {
+    background-color: blueviolet;
+}
+
+main {
+    background-color: rgb(255, 47, 179);
+}
+
+section {
+    background-color: blue;
+}
+
+footer {
+    background-color: red;
+}
+
+/******************* GRID BÁSICA - INICIO *****************/
+.main_container {
+    background-color: chocolate;
+    display: grid;
+    grid-template: 120px 40px 1fr 120px / 400px 1fr;  /* filas / columnas */
+    grid-template-areas: "area_header area_header"
+                         "area_nav area_nav"
+                         "area_aside area_contenido"
+                         "area_footer area_footer";
+    height: 100vh;
+    grid-gap: 10px;
+}
+
+/* Vinculo el "header" con el área 
+definida en "grid-template-areas" */
+.header {
+    grid-area: area_header;
+    border-radius: 8px;
+}
+
+/* Vinculo el "nav_bar" con el área
+definida en "grid-template-areas" */
+.nav_bar {
+    grid-area: area_nav;
+    border-radius: 8px;
+}
+
+/* Vinculo el "aside" con el área
+definida en "grid-template-areas" */
+.aside {
+    grid-area: area_aside;   
+    border-radius: 8px;
+}
+
+/* Vinculo el "contenido" con el área
+definida en "grid-template-areas" */
+.contenido {
+    grid-area: area_contenido;
+    border-radius: 8px;
+}
+
+/* Vinculo el "footer" con el área
+definida en "grid-template-areas" */
+.footer_container {
+    grid-area: area_footer;
+    border-radius: 8px;
+}
+
+/********************* GRID BÁSICA - FIN *******************/
+
+[div^="Item"] {
+    background-color:burlywood;
+}
+
+div {
+    display: inline-block;
+    background-color: yellow;
+    border: solid 2px;
+    width: 50;
+    height: 50;
+}
+
+.nav_bar { /*TODO: No está funcionando el flexbox.*/
+   /* display: flex;*/
+   /*  flex-direction: row; */ /*Es el valor por defecto, no es necesario*/
+   /* justify-content: space-around;  */
+}
+
+.nav_bar_list { /*TODO: No está funcionando el flexbox.*/
+    display: flex;
+    flex-direction: row;  /*Es el valor por defecto, no es necesario*/
+    justify-content: space-around;
+    align-content: center;
+    list-style: none;  /*Le saco la viñeta a los elementos de la lista desordenada.*/
+}
+
+.nav_bar_list > li > a {
+    text-decoration: none;   /*Le quito la apariencia de enlace a los anchors.*/
+}
+
