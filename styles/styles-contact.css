@@ -1,0 +1,61 @@
+/*
+    Artículos de referencia:
+    - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Aligning_items_in_a_flex_container
+*/
+
+/******************* FLEX GENERAL - INICIO *****************/
+.main_container {
+    background-color: chocolate;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 10px;
+    /* grid-gap: 10px; */
+}
+
+.header_container {
+    border-radius: 8px;
+    height: 160px;
+}
+
+.form_container {
+    border-radius: 8px;
+    flex-grow: 1;
+}
+
+.footer_container {
+    border-radius: 8px;
+    height: 120px;
+}
+/********************* FLEX GENERAL - FIN *******************/
+
+.main_container {
+    font-size: var(--font-medium);
+}
+
+[div^="Item"] {
+    background-color:burlywood;
+}
+
+div {
+    display: inline-block;
+    background-color: yellow;
+    border: solid 2px;
+    width: 50;
+    height: 50;
+}
+
+.footer_list {
+    display: flex;
+    flex-direction: row;  /*Es el valor por defecto, no es necesario*/
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;  /*Le saco la viñeta a los elementos de la lista desordenada.*/
+}
+
+.footer_list > li > a {
+    text-decoration: none;   /*Le quito la apariencia de enlace a los anchors.*/
+    align-items: center;
+}
+

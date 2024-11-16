@@ -3,11 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="../styles/styles-common.css" rel="stylesheet">
+    <link href="../styles/styles-contact.css" rel="stylesheet">
+    <title>TecnoLibros - Contacto</title>
 </head>
-<body>
-    <p>Acá va el formulario hecho con formspree.</p>
-    <p>Además, el header y footer normal.</p>
-    <p>Tal vez el nav también.</p>
+<body class="main_container">
+    <header class="header header_container">
+        <picture>
+            <img src="../assets/img/Banner.png" alt="Logo de BookFinder">
+        </picture>
+    </header>
+    
+    <main class="main form_container">
+
+        <form action="https://formspree.io/f/xdkozvgj" method="POST">
+            <label>
+                Your email:
+                <input type="email" name="email">
+            </label>
+            <label>
+                Your message:
+                <textarea name="message"></textarea>
+            </label>
+            <button type="submit">Enviar</button>
+        </form>
+
+    </main>
+
+    <footer class="footer footer_container">
+        <ul class="footer_list">
+            <li><a href="./pages/contact.html">Contacto x Formulario 1</a></li>
+            <li><a href="./pages/contact.html">Contacto x Formulario 2</a></li>
+            <li><a href="./pages/contact.html">Contacto x Formulario 3</a></li>
+        </ul>
+    </footer>
+
 </body>
 </html>
