@@ -12,6 +12,11 @@
         <picture>
             <img src="./assets/img/Banner.png" alt="Logo de BookFinder">
         </picture>
+        <p id="totalItemsInCart"></p>
+        <!-- <button id="carrito">Ir al carrito</button> -->
+        <form action="./pages/carrito.html">
+            <input type="submit" value="Ir al carrito" />
+        </form>
     </header>
     <!-- <main> -->
         <nav class="nav_bar"   >
@@ -34,104 +39,115 @@
         </aside>
         <section class="products_container contenido">
             <!-- Emmet: div.Item_$${Item $$}*15 -->
-            <div class="Item_01">
+            <div class="card Item_01">
                 <picture>
                     <img src="./assets/img/Img01.jpg" alt="Imagen del libro 01">
                 </picture>
-                <p>Learnig Go</p>
+                <h3>Learnig Go</h3>
                 <p>O'Reilly</p>
-                <p>Año 2024</p>
-                <p>Precio: No disponible / No a la venta</p>
+                <p>Año <span class="date">2024</span></p>
+                <p>Precio: <span class="currency">US$</span> <span class="price">200</span></p>
+                <button>Agregar al carrito</button>
             </div>
-            <div class="Item_02">
+            <div class="card Item_02">
                 <picture>
                     <img src="./assets/img/Img02.jpg" alt="Imagen del libro 02">
                 </picture>
-                <p>Prompt Engineering for Generative AI</p>
+                <h3>Prompt Engineering for Generative AI</h3>
                 <p>O'Reilly</p>
-                <p>Año 2024</p>
-                <p>Precio: No disponible / No a la venta</p>
+                <p>Año <span class="date">2024</span></p>
+                <p>Precio: <span class="currency">US$</span> <span class="price">210</span></p>
+                <button>Agregar al carrito</button>
             </div>
-            <div class="Item_03">
+            <div class="card Item_03">
                 <picture>
                     <img src="./assets/img/Img03.jpg" alt="Imagen del libro 03">
                 </picture>
-                <p>Observability Engineering</p>
+                <h3>Observability Engineering</h3>
                 <p>O'Reilly</p>
-                <p>Año 2024</p>
-                <p>Precio: No disponible / No a la venta</p>
+                <p>Año <span class="date">2024</span></p>
+                <p>Precio: <span class="currency">US$</span> <span class="price">220</span></p>
+                <button>Agregar al carrito</button>
             </div>
-            <div class="Item_04">
+            <div class="card Item_04">
                 <picture>
                     <img src="./assets/img/Img04.jpg" alt="Imagen del libro 04">
                 </picture>
-                <p>Applied Machine Learning and AI for Engineers</p>
+                <h3>Applied Machine Learning and AI for Engineers</h3>
                 <p>O'Reilly</p>
-                <p>Año 2024</p>
-                <p>Precio: No disponible / No a la venta</p>
+                <p>Año <span class="date">2024</span></p>
+                <p>Precio: <span class="currency">US$</span> <span class="price">230</span></p>
+                <button>Agregar al carrito</button>
             </div>
-            <div class="Item_05">
+            <div class="card Item_05">
                 <picture>
                     <img src="./assets/img/Img05.jpg" alt="Imagen del libro 05">
                 </picture>
-                <p>Fundamentals of Software Architecture</p>
+                <h3>Fundamentals of Software Architecture</h3>
                 <p>O'Reilly</p>
-                <p>Año 2024</p>
-                <p>Precio: No disponible / No a la venta</p>
+                <p>Año <span class="date">2024</span></p>
+                <p>Precio: <span class="currency">US$</span> <span class="price">240</span></p>
+                <button>Agregar al carrito</button>
             </div>
-            <div class="Item_06">
+            <div class="card Item_06">
                 <picture>
                     <img src="./assets/img/Img06.jpg" alt="Imagen del libro 06">
                 </picture>
-                <p>Essential Math for AI</p>
+                <h3>Essential Math for AI</h3>
                 <p>O'Reilly</p>
-                <p>Año 2024</p>
-                <p>Precio: No disponible / No a la venta</p>
+                <p>Año <span class="date">2024</span></p>
+                <p>Precio: <span class="currency">US$</span> <span class="price">250</span></p>
+                <button>Agregar al carrito</button>
             </div>
-            <div class="Item_07">
+            <div class="card Item_07">
                 <picture>
                     <img src="./assets/img/Img07.jpg" alt="Imagen del libro 07">
                 </picture>
-                <p>Introducing Python</p>
+                <h3>Introducing Python</h3>
                 <p>O'Reilly</p>
-                <p>Año 2024</p>
-                <p>Precio: No disponible / No a la venta</p>
+                <p>Año <span class="date">2024</span></p>
+                <p>Precio: <span class="currency">US$</span> <span class="price">260</span></p>
+                <button>Agregar al carrito</button>
             </div>
-            <div class="Item_08">
+            <div class="card Item_08">
                 <picture>
                     <img src="./assets/img/Img08.jpg" alt="Imagen del libro 08">
                 </picture>
-                <p>JavaScript - The Definitive Guide</p>
+                <h3>JavaScript - The Definitive Guide</h3>
                 <p>O'Reilly</p>
-                <p>Año 2024</p>
-                <p>Precio: No disponible / No a la venta</p>
+                <p>Año <span class="date">2024</span></p>
+                <p>Precio: <span class="currency">US$</span> <span class="price">270</span></p>
+                <button>Agregar al carrito</button>
             </div>
-            <div class="Item_09">
+            <div class="card Item_09">
                 <picture>
                     <img src="./assets/img/Img09.jpg" alt="Imagen del libro 09">
                 </picture>
-                <p>Learning JavaScript Design Patterns</p>
+                <h3>Learning JavaScript Design Patterns</h3>
                 <p>O'Reilly</p>
-                <p>Año 2024</p>
-                <p>Precio: No disponible / No a la venta</p>
+                <p>Año <span class="date">2024</span></p>
+                <p>Precio: <span class="currency">US$</span> <span class="price">280</span></p>
+                <button>Agregar al carrito</button>
             </div>
-            <div class="Item_10">
+            <div class="card Item_10">
                 <picture>
                     <img src="./assets/img/Img10.jpg" alt="Imagen del libro 10">
                 </picture>
-                <p>JavaScript Cookbook</p>
+                <h3>JavaScript Cookbook</h3>
                 <p>O'Reilly</p>
-                <p>Año 2024</p>
-                <p>Precio: No disponible / No a la venta</p>
+                <p>Año <span class="date">2024</span></p>
+                <p>Precio: <span class="currency">US$</span> <span class="price">290</span></p>
+                <button>Agregar al carrito</button>
             </div>
-            <div class="Item_10">
+            <div class="card Item_10">
                 <picture>
                     <img src="./assets/img/Img11.jpg" alt="Imagen del libro 11">
                 </picture>
-                <p>Web API Cookbook</p>
+                <h3>Web API Cookbook</h3>
                 <p>O'Reilly</p>
-                <p>Año 2024</p>
-                <p>Precio: No disponible / No a la venta</p>
+                <p>Año <span class="date">2024</span></p>
+                <p>Precio: <span class="currency">US$</span> <span class="price">300</span></p>
+                <button>Agregar al carrito</button>
             </div>
         </section>
     <!-- </main> -->
@@ -142,5 +158,7 @@
             <li><a href="./pages/contact.html">Contacto x Formulario 3</a></li>
         </ul>
     </footer>
+
+    <script src="./js/script_index.js"></script>
 </body>
 </html>
