@@ -1,0 +1,254 @@
+{
+    "books": [
+        {
+            "id" : 1,
+            "title": "Learnig Go",
+            "publisher": "O'Reilly",
+            "year": 2024,
+            "currency": "US$",
+            "price": 200,
+            "image": "Img01.jpg",
+            "stock":15
+        },
+        {
+            "id" : 2,
+            "title": "Prompt Engineering for Generative AI",
+            "publisher": "O'Reilly",
+            "year": 2024,
+            "currency": "US$",
+            "price": 210,
+            "image": "Img02.jpg",
+            "stock":15
+        },
+        {
+            "id" : 3,
+            "title": "Observability Engineering",
+            "publisher": "O'Reilly",
+            "year": 2024,
+            "currency": "US$",
+            "price": 220,
+            "image": "Img03.jpg",
+            "stock":15
+        },
+        {
+            "id" : 4,
+            "title": "Applied Machine Learning and AI for Engineers",
+            "publisher": "O'Reilly",
+            "year": 2024,
+            "currency": "US$",
+            "price": 230,
+            "image": "Img04.jpg",
+            "stock":15
+        },
+        {
+            "id" : 5,
+            "title": "Fundamentals of Software Architecture",
+            "publisher": "O'Reilly",
+            "year": 2024,
+            "currency": "US$",
+            "price": 240,
+            "image": "Img05.jpg",
+            "stock":15
+        },
+        {
+            "id" : 6,
+            "title": "Essential Math for AI",
+            "publisher": "O'Reilly",
+            "year": 2024,
+            "currency": "US$",
+            "price": 250,
+            "image": "Img06.jpg",
+            "stock":15
+        },
+        {
+            "id" : 7,
+            "title": "Introducing Python",
+            "publisher": "O'Reilly",
+            "year": 2024,
+            "currency": "US$",
+            "price": 200,
+            "image": "Img07.jpg",
+            "stock":15
+        },
+        {
+            "id" : 8,
+            "title": "JavaScript - The Definitive Guide",
+            "publisher": "O'Reilly",
+            "year": 2024,
+            "currency": "US$",
+            "price": 210,
+            "image": "Img08.jpg",
+            "stock":15
+        },
+        {
+            "id" : 9,
+            "title": "Learning JavaScript Design Patterns",
+            "publisher": "O'Reilly",
+            "year": 2024,
+            "currency": "US$",
+            "price": 220,
+            "image": "Img09.jpg",
+            "stock":15
+        },
+        {
+            "id" : 10,
+            "title": "JavaScript Cookbook",
+            "publisher": "O'Reilly",
+            "year": 2024,
+            "currency": "US$",
+            "price": 230,
+            "image": "Img10.jpg",
+            "stock":15
+        },
+        {
+            "id" : 11,
+            "title": "Web API Cookbook",
+            "publisher": "O'Reilly",
+            "year": 2024,
+            "currency": "US$",
+            "price": 240,
+            "image": "Img11.jpg",
+            "stock":15
+        },
+        {
+            "id" : 12,
+            "title": "CSS The Definitive Guide",
+            "publisher": "O'Reilly",
+            "year": 2024,
+            "currency": "US$",
+            "price": 250,
+            "image": "Img12.jpg",
+            "stock":15
+        },
+        {
+            "id" : 13,
+            "title": "Effective TypeScript",
+            "publisher": "O'Reilly",
+            "year": 2024,
+            "currency": "US$",
+            "price": 260,
+            "image": "Img13.jpg",
+            "stock":15
+        },
+        {
+            "id" : 14,
+            "title": "Programming TypeScript",
+            "publisher": "O'Reilly",
+            "year": 2024,
+            "currency": "US$",
+            "price": 270,
+            "image": "Img14.jpg",
+            "stock":15
+        },
+        {
+            "id" : 15,
+            "title": "Learning TypeScript",
+            "publisher": "O'Reilly",
+            "year": 2024,
+            "currency": "US$",
+            "price": 210,
+            "image": "Img15.jpg",
+            "stock":15
+        },
+        {
+            "id" : 16,
+            "title": "Responsive Web Design with HTML and CSS",
+            "publisher": "Packt",
+            "year": 2024,
+            "currency": "US$",
+            "price": 220,
+            "image": "Img16.jpg",
+            "stock":15
+        },
+        {
+            "id" : 17,
+            "title": "AWS for Solution Architects",
+            "publisher": "Packt",
+            "year": 2024,
+            "currency": "US$",
+            "price": 230,
+            "image": "Img17.jpg",
+            "stock":15
+        },
+        {
+            "id" : 18,
+            "title": "Mastering Linux Administration",
+            "publisher": "Packt",
+            "year": 2024,
+            "currency": "US$",
+            "price": 240,
+            "image": "Img18.jpg",
+            "stock":15
+        },
+        {
+            "id" : 19,
+            "title": "Unlocking Data with Generative AI and RAG",
+            "publisher": "Packt",
+            "year": 2024,
+            "currency": "US$",
+            "price": 250,
+            "image": "Img19.jpg",
+            "stock":15
+        },
+        {
+            "id" : 20,
+            "title": "Apps and Services with .NET8",
+            "publisher": "Packt",
+            "year": 2024,
+            "currency": "US$",
+            "price": 200,
+            "image": "Img20.jpg",
+            "stock":15
+        },
+        {
+            "id" : 21,
+            "title": "C# and .NET9",
+            "publisher": "Packt",
+            "year": 2024,
+            "currency": "US$",
+            "price": 200,
+            "image": "Img21.jpg",
+            "stock":15
+        },
+        {
+            "id" : 22,
+            "title": "Machine Learning with PyTorch and Scikit-Learn",
+            "publisher": "Packt",
+            "year": 2024,
+            "currency": "US$",
+            "price": 210,
+            "image": "Img22.jpg",
+            "stock":15
+        },
+        {
+            "id" : 23,
+            "title": "Modern C++ Programming Cookbook",
+            "publisher": "Packt",
+            "year": 2024,
+            "currency": "US$",
+            "price": 220,
+            "image": "Img23.jpg",
+            "stock":15
+        },
+        {
+            "id" : 24,
+            "title": "Kubernetes in Action",
+            "publisher": "Manning",
+            "year": 2024,
+            "currency": "US$",
+            "price": 230,
+            "image": "Img24.jpg",
+            "stock":15
+        },
+        {
+            "id" : 25,
+            "title": "Kubernetes for Developers",
+            "publisher": "Manning",
+            "year": 2024,
+            "currency": "US$",
+            "price": 250,
+            "image": "Img25.jpg",
+            "stock":15
+        }
+    ]
+}
