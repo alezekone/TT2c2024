@@ -56,13 +56,14 @@ if (cart.length == 0) {
         tableBody += '<td>+</td>';
         tableBody += `<td>${book.price*book.qtty}</td>`;
         tableBody += '</tr>';
+        totalPrice += book.price*book.qtty;
     });
     tableBody += '</tbody>';
 
     tableFoot =  '<tfoot>';
     tableFoot +=  '<tr>';
     tableFoot +=  '<th scope="row" colspan="5">Importe total</th>';
-    tableFoot +=  '<td>5500 estimado</td>';
+    tableFoot +=  `<td>${totalPrice}</td>`;
     tableFoot +=  '</tfoot>';
 
 
