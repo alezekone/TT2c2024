@@ -1,6 +1,57 @@
+/******************* GRID BÁSICA - INICIO *****************/
+.main_container {
+  background-color: chocolate;
+  display: grid;
+  grid-template: 160px 1fr 120px / 1fr;  /* filas / columnas */
+  grid-template-areas: "area_header area_header"
+                       "area_aside area_contenido"
+                       "area_footer area_footer";
+  height: 100vh;
+  grid-gap: 10px;
+}
 
+/* Vinculo el "header" con el área 
+definida en "grid-template-areas" */
+.header {
+  grid-area: area_header;
+  border-radius: 8px;
+}
+
+/* Vinculo el "contenido" con el área
+definida en "grid-template-areas" */
+.contenido {
+  grid-area: area_contenido;
+  border-radius: 8px;
+}
+
+/* Vinculo el "footer" con el área
+definida en "grid-template-areas" */
+.footer_container {
+  grid-area: area_footer;
+  border-radius: 8px;
+}
+
+/********************* GRID BÁSICA - FIN *******************/
+.main {
+  /* justify-content: center; */
+  /* justify-items: center; */
+  margin: auto;
+  width: 90%;
+}
+
+#cartContainer {
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* margin-left: auto;
+  margin-right: auto; */
+  width: 100%;
+  background-color: blue;
+}
 
 table {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     border-collapse: collapse;
     border: 2px solid rgb(140 140 140);
     font-family: sans-serif;
@@ -41,3 +92,35 @@ table {
     font-weight: bold;
   }
   
+
+  .footer_list {
+    display: flex;
+    flex-direction: row;  /*Es el valor por defecto, no es necesario*/
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    list-style: none;  /*Le saco la viñeta a los elementos de la lista desordenada.*/
+}
+
+.footer_list > li > a {
+    text-decoration: none;   /*Le quito la apariencia de enlace a los anchors.*/
+    align-items: center;
+}
+
+#buttonsCarrito{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  /* align-content: center; */
+}
+#buttonVaciarCarrito {
+  margin: 10px 0px;
+  width: 140px;
+  height: 2em;
+}
+
+#buttonComprar {
+  margin: 10px 0px;
+  width: 140px;
+  height: 2em;
+}
