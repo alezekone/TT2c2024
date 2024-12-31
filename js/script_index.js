@@ -7,7 +7,7 @@ function showBooks() {
     let books = [];
     let aca = document.querySelector('#libros');
     
-    fetch('/TT2c2024/assets/books/books.json')
+    fetch('assets/books/books.json')
     .then(res => {
         if (!res.ok) {
             throw new Error(`Error al intentar acceder al archivo .json de libros, status = ${res.status}`)
@@ -22,7 +22,7 @@ function showBooks() {
             let card = document.createElement('div');
             card.classList.add("card"); 
             card.innerHTML = `<picture>
-                                <img src="../assets/books/img/${book.image}" alt="Imagen del libro ${book.id}">
+                                <img src="assets/books/img/${book.image}" alt="Imagen del libro ${book.id}">
                               </picture>
                               <h3>${book.title}</h3>
                               <p>${book.publisher}</p>
@@ -75,7 +75,7 @@ function showBooks() {
 
 }
 
-showBooks();
+window.onload = showBooks();
 
 // -----------------------------------------------------------------------------------
 
