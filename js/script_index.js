@@ -7,7 +7,7 @@ function showBooks() {
     let books = [];
     let aca = document.querySelector('#libros');
     
-    fetch('../assets/books/books.json')
+    fetch('/assets/books/books.json')
     .then(res => {
         if (!res.ok) {
             throw new Error(`Error al intentar acceder al archivo .json de libros, status = ${res.status}`)
