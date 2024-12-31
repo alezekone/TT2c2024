@@ -22,7 +22,7 @@ function showBooks() {
             let card = document.createElement('div');
             card.classList.add("card"); 
             card.innerHTML = `<picture>
-                                <img src="/assets/books/img/${book.image}" alt="Imagen del libro 01">
+                                <img src="/TT2c2024/assets/books/img/${book.image}" alt="Imagen del libro 01">
                               </picture>
                               <h3>${book.title}</h3>
                               <p>${book.publisher}</p>
